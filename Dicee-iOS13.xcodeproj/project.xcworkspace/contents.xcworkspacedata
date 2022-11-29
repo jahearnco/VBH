@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Dicee-iOS13.xcodeproj">
+      location = "self:/Users/enjoy/Documents/xcode/sourcecontrol/git/Dicee-iOS13/Dicee-iOS13.xcodeproj">
    </FileRef>
 </Workspace>
