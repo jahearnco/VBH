@@ -45,7 +45,7 @@
                                         <rect key="frame" x="30" y="214" width="354" height="286"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="20" adjustsFontForContentSizeCategory="YES" preferredMaxLayoutWidth="400" translatesAutoresizingMaskIntoConstraints="NO" id="tl3-7p-1tP">
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="20" preferredMaxLayoutWidth="400" translatesAutoresizingMaskIntoConstraints="NO" id="tl3-7p-1tP">
                                                 <rect key="frame" x="32" y="8" width="290" height="270"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>

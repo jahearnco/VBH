@@ -137,7 +137,7 @@ class ViewController: UIViewController {
             //Move the origin to the middle of the image so we will rotate and scale around the center.
             bitmap.translateBy(x: size.width / 2, y: size.height / 2)
             //Rotate the image context
-            bitmap.rotate(by: (degrees * CGFloat(M_PI / 180)))
+         bitmap.rotate(by: (degrees * CGFloat(Double.pi / 180)))
             //Now, draw the rotated/scaled image into the context
             bitmap.scaleBy(x: 1.0, y: -1.0)
             
@@ -171,21 +171,17 @@ class ViewController: UIViewController {
 
     func initPlaySound(audioURL: String) {
 
-        do {
-            let url  = URL.init(string: audioURL)
+        let url  = URL.init(string: audioURL)
 
-            let playerItem: AVPlayerItem = AVPlayerItem(url: url!)
+        let playerItem: AVPlayerItem = AVPlayerItem(url: url!)
+        
+        player = AVPlayer(playerItem: playerItem)
+
+        let playerLayer = AVPlayerLayer(player: player)
+
+        playerLayer.frame = CGRect(x: 0, y: 0, width: 10, height: 50)
+                self.view.layer.addSublayer(playerLayer)
             
-            player = AVPlayer(playerItem: playerItem)
-
-            let playerLayer = AVPlayerLayer(player: player)
-
-            playerLayer.frame = CGRect(x: 0, y: 0, width: 10, height: 50)
-                    self.view.layer.addSublayer(playerLayer)
-            
-        } catch let error {
-            print(error.localizedDescription)
-        }
     }
     
     func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
@@ -267,7 +263,7 @@ class ViewController: UIViewController {
     }
 
     @objc func playClip(){
-        //player?.play()
+        player?.play()
     }
     
     @objc func setMatchLabel(_ timer: Timer){
@@ -383,28 +379,6 @@ class ViewController: UIViewController {
             return image
     }
     
-    func ResizeImage(image: UIImage, targetSize: CGSize) -> UIImage? {
-        let size = image.size
-
-        let widthRatio  = targetSize.width  / image.size.width
-        let heightRatio = targetSize.height / image.size.height
-
-        // Figure out what our orientation is, and use that to form the rectangle
-        //var newSize: CGSize = (widthRatio > heightRatio) ? CGSizeMake(size.width * heightRatio, size.height * heightRatio) : CGSizeMake(size.width * widthRatio,  size.height * widthRatio)
-        var newSize: CGSize = CGSizeMake((image.size.width/image.size.height)*2000,  2000)
-
-
-        // This is the rect that we've calculated out and this is what is actually used below
-        let rect = CGRectMake(0, 0, newSize.width, newSize.height)
-
-        // Actually do the resizing to the rect using the ImageContext stuff
-        UIGraphicsBeginImageContextWithOptions(newSize, false, 1.0)
-        image.draw(in:rect)
-        let newImage:UIImage? = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-
-        return newImage
-    }
     
     func printStatus(){
 

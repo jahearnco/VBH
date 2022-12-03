@@ -297,7 +297,7 @@
 				DEVELOPMENT_TEAM = ZCE6ZMC8L7;
 				INFOPLIST_FILE = "V·B·H/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Very Big Heads";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -318,7 +318,7 @@
 				DEVELOPMENT_TEAM = ZCE6ZMC8L7;
 				INFOPLIST_FILE = "V·B·H/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Very Big Heads";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
