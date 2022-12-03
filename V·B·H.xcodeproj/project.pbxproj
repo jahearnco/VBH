@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		ADAD913B22B0FDAE007B460A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicee-iOS13.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB0DFF922AFA6090030352D /* V·B·H.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "V·B·H.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB0DFFC22AFA6090030352D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB0E00022AFA6090030352D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADB0E00322AFA6090030352D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 			isa = PBXGroup;
 			children = (
 				ADAD913B22B0FDAE007B460A /* README.md */,
-				ADB0DFFB22AFA6090030352D /* Dicee-iOS13 */,
+				ADB0DFFB22AFA6090030352D /* V·B·H */,
 				ADB0DFFA22AFA6090030352D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,12 +51,12 @@
 		ADB0DFFA22AFA6090030352D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */,
+				ADB0DFF922AFA6090030352D /* V·B·H.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ADB0DFFB22AFA6090030352D /* Dicee-iOS13 */ = {
+		ADB0DFFB22AFA6090030352D /* V·B·H */ = {
 			isa = PBXGroup;
 			children = (
 				ADB0DFFC22AFA6090030352D /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				ADB0E00722AFA60E0030352D /* LaunchScreen.storyboard */,
 				ADB0E00A22AFA60E0030352D /* Info.plist */,
 			);
-			path = "Dicee-iOS13";
+			path = "V·B·H";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ADB0DFF822AFA6090030352D /* Dicee-iOS13 */ = {
+		ADB0DFF822AFA6090030352D /* V·B·H */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "Dicee-iOS13" */;
+			buildConfigurationList = ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "V·B·H" */;
 			buildPhases = (
 				ADB0DFF522AFA6090030352D /* Sources */,
 				ADB0DFF622AFA6090030352D /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = "Dicee-iOS13";
-			productName = "Dicee-iOS13";
-			productReference = ADB0DFF922AFA6090030352D /* Dicee-iOS13.app */;
+			name = "V·B·H";
+			productName = "V·B·H";
+			productReference = ADB0DFF922AFA6090030352D /* V·B·H.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,6 +96,9 @@
 		ADB0DFF122AFA6090030352D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					"Top View",
+				);
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = "Everphase Intellectual";
@@ -105,7 +108,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ADB0DFF422AFA6090030352D /* Build configuration list for PBXProject "Dicee-iOS13" */;
+			buildConfigurationList = ADB0DFF422AFA6090030352D /* Build configuration list for PBXProject "V·B·H" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +121,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ADB0DFF822AFA6090030352D /* Dicee-iOS13 */,
+				ADB0DFF822AFA6090030352D /* V·B·H */,
 			);
 		};
 /* End PBXProject section */
@@ -292,8 +295,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCE6ZMC8L7;
-				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
+				INFOPLIST_FILE = "V·B·H/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Very Big Heads";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				"LD_MAP_FILE_PATH[arch=*]" = "$(TARGET_TEMP_DIR)/$(PRODUCT_NAME)-LinkMap-$(CURRENT_VARIANT)-$(CURRENT_ARCH).txt";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,8 +316,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCE6ZMC8L7;
-				INFOPLIST_FILE = "Dicee-iOS13/Info.plist";
+				INFOPLIST_FILE = "V·B·H/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Very Big Heads";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ADB0DFF422AFA6090030352D /* Build configuration list for PBXProject "Dicee-iOS13" */ = {
+		ADB0DFF422AFA6090030352D /* Build configuration list for PBXProject "V·B·H" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB0E00B22AFA60E0030352D /* Debug */,
@@ -336,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "Dicee-iOS13" */ = {
+		ADB0E00D22AFA60E0030352D /* Build configuration list for PBXNativeTarget "V·B·H" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ADB0E00E22AFA60E0030352D /* Debug */,

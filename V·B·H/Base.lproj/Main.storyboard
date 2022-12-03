@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="V·B·H" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.34999999999999998" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="HHb-26-6bR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemTealColor"/>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.25" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" image="SOL 3" translatesAutoresizingMaskIntoConstraints="NO" id="5VS-MC-Lbp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Dx-HR-o9i">
+                                <rect key="frame" x="0.0" y="93" width="414" height="711"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" image="DiceTwo" translatesAutoresizingMaskIntoConstraints="NO" id="ETx-uJ-bLB">
+                                        <rect key="frame" x="112" y="496" width="190" height="190"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.43802228300000001" green="0.9124143978" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.96393531560897827" green="0.96393543481826782" blue="0.96393531560897827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                    <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" image="DiceOne" translatesAutoresizingMaskIntoConstraints="NO" id="yWf-IH-gTN">
+                                        <rect key="frame" x="112" y="31" width="190" height="190"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.43802228300000001" green="0.9124143978" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.96393531560897827" green="0.96393543481826782" blue="0.96393531560897827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                    <view clipsSubviews="YES" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qLt-VD-8oK">
+                                        <rect key="frame" x="30" y="214" width="354" height="286"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" minimumFontSize="20" adjustsFontForContentSizeCategory="YES" preferredMaxLayoutWidth="400" translatesAutoresizingMaskIntoConstraints="NO" id="tl3-7p-1tP">
+                                                <rect key="frame" x="32" y="8" width="290" height="270"/>
+                                                <autoresizingMask key="autoresizingMask"/>
+                                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="45"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                                <size key="shadowOffset" width="3" height="-3"/>
+                                            </label>
+                                        </subviews>
+                                    </view>
+                                </subviews>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="bottom" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" id="qux-ee-YBx">
+                                <rect key="frame" x="-1" y="795" width="414" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <button autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" pointerInteraction="YES" role="primary" id="59g-Yj-Di9">
+                                        <rect key="frame" x="100" y="22" width="212" height="45"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="1" green="0.34891215990000002" blue="0.057868709499999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="24"/>
+                                        <inset key="contentEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
+                                        <inset key="titleEdgeInsets" minX="6" minY="6" maxX="6" maxY="6"/>
+                                        <inset key="imageEdgeInsets" minX="-2" minY="-2" maxX="-2" maxY="-2"/>
+                                        <size key="titleShadowOffset" width="3" height="-3"/>
+                                        <state key="normal" title="Again!">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="titleShadowColor" systemColor="quaternarySystemFillColor"/>
+                                        </state>
+                                        <state key="selected" image="jake">
+                                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                        </state>
+                                        <state key="highlighted" image="jake"/>
+                                        <connections>
+                                            <action selector="rollButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PKJ-Pv-S8y"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="top" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" id="2yM-YH-p4H">
+                                <rect key="frame" x="-1" y="0.0" width="414" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Make America Great" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="360" id="iEM-3Q-MB6">
+                                        <rect key="frame" x="45" y="40" width="322" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="Georgia-Bold" family="Georgia" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="5VS-MC-Lbp" secondAttribute="bottom" id="0vC-hQ-IKE"/>
+                            <constraint firstItem="HHb-26-6bR" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="2m2-fs-b64"/>
+                            <constraint firstItem="5VS-MC-Lbp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8WG-as-b6K"/>
+                            <constraint firstItem="5VS-MC-Lbp" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="EQO-1i-giV"/>
+                            <constraint firstItem="5VS-MC-Lbp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IRa-9e-FLT"/>
+                            <constraint firstItem="HHb-26-6bR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="crp-hS-Yhx"/>
+                            <constraint firstItem="HHb-26-6bR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="o2T-dT-Exa"/>
+                            <constraint firstItem="HHb-26-6bR" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="rTo-27-rAM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="DiceImageView1" destination="yWf-IH-gTN" id="9Uj-BU-i9s"/>
+                        <outlet property="DiceImageView2" destination="ETx-uJ-bLB" id="wYj-eK-gS5"/>
+                        <outlet property="MAGALabel" destination="iEM-3Q-MB6" id="KO6-q0-18Y"/>
+                        <outlet property="bottomView" destination="qux-ee-YBx" id="RpI-j9-lBp"/>
+                        <outlet property="matchImagesLabel" destination="tl3-7p-1tP" id="liF-LD-tFJ"/>
+                        <outlet property="middleView" destination="2Dx-HR-o9i" id="BQn-LJ-87Z"/>
+                        <outlet property="rollButton" destination="59g-Yj-Di9" id="s5A-Mg-Aeb"/>
+                        <outlet property="textResultView" destination="qLt-VD-8oK" id="kri-Oz-xld"/>
+                        <outlet property="topView" destination="2yM-YH-p4H" id="qug-rp-ET7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DiceOne" width="100" height="100"/>
+        <image name="DiceTwo" width="100" height="100"/>
+        <image name="SOL 3" width="340" height="549"/>
+        <image name="jake" width="600" height="111"/>
+        <systemColor name="quaternarySystemFillColor">
+            <color red="0.45490196078431372" green="0.45490196078431372" blue="0.50196078431372548" alpha="0.080000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
